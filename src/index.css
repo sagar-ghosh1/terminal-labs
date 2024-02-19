@@ -3,6 +3,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Banner */
+.heroBg {
+  background-image: url(../src/assets/banner/Rectangle55.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shadowBg {
+  background-image: url(../src/assets/banner/Rectangle56.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shadowLeft {
+  background-image: url(../src/assets/banner/left.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.shadowRight {
+  background-image: url(../src/assets/banner/right.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
  
 @layer base {
   :root {
