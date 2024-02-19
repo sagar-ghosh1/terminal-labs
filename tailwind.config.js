@@ -19,7 +19,7 @@ module.exports = {
       extend: {
          fontFamily: {
             switzer: "Switzer",
-            smulya: "Amulya",
+            amulya: "Amulya",
          },
          colors: {
             border: "hsl(var(--border))",
