@@ -3,6 +3,88 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Banner */
+.heroBg {
+  background-image: url(../src/assets/banner/Rectangle55.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shadowBg {
+  background-image: url(../src/assets/banner/Rectangle56.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shadowLeft {
+  background-image: url(../src/assets/banner/left.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.shadowRight {
+  background-image: url(../src/assets/banner/right.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Scroll down */
+.scroll-down {
+   width: 42px;
+   height: 82px;
+   border: 1px solid #8211F1;
+   position: absolute;
+   left: 50%;
+   bottom: 20px;
+   border-radius: 50px;
+   cursor: pointer;
+}
+
+.scroll-down::before,
+.scroll-down::after {
+   content: '';
+   position: absolute;
+   top: 20%;
+   left: 50%;
+   border: 2px solid #8211F1;
+   height: 3px;
+   width: 3px;
+   transform: translate(-50%, -90%) rotate(45deg);
+   border-top: transparent;
+   border-left: transparent;
+   animation: scroll-down-animation 1s ease-in-out infinite;
+   transition: 1s;
+}
+
+.scroll-down::after {
+   top: 30%;
+   animation-delay: 0.2s;
+}
+
+@keyframes scroll-down-animation {
+   0% {
+      opacity: 0;
+   }
+
+   30% {
+      opacity: 1;
+   }
+
+   60% {
+      opacity: 1;
+   }
+
+   100% {
+      opacity: 0;
+      top: 90%
+   }
+}
  
 @layer base {
   :root {
