@@ -1,20 +1,30 @@
+import { useEffect, useRef } from "react";
 import wavingHand from '@/assets/banner/noto_waving-hand.png'
 import { Button } from '@/components/ui/button';
 import { MdArrowOutward } from "react-icons/md";
 import bannerAnimation from "@/assets/banner/circle_wave_trans.gif"
 import Container from '../Container/Container';
 import scrollDown from '@/assets/banner/Rectangle.png'
+import heroVideo from '@/assets/banner/hero.mp4'
 
 
 const Banner = () => {
+  const vidRef = useRef();
+
+  useEffect(() => {
+    if (vidRef.current) {
+      vidRef.current.muted = false;
+    }
+  }, []);
+
   return (
     <div className="heroBg overflow-hidden -mt-[92px]">
       <div className='shadowBg'>
         <div className='shadowLeft'>
           <div className='shadowRight'>
             <Container>
-              <div className='flex flex-col-reverse md:flex-row justify-between 2xl:justify-around items-center pt-[100px] md:py-[200px]'>
-                <div className='mt-20 mb-14 md:mb-0 md:mt-0'>
+              <div className='flex flex-col-reverse md:flex-row justify-between 2xl:justify-around items-center gap-x-8 pt-[100px] md:py-[200px]'>
+                <div className='md:w-1/2 mt-20 mb-14 md:mb-0 md:mt-0'>
                   <p className='text-[15px] md:text-[16px] text-[#3CBDF4] font-switzer uppercase mb-2'>Web3 Visionary Success Journey</p>
                   <div>
                     <div className='flex items-center'>
@@ -31,8 +41,17 @@ const Banner = () => {
                   </Button>
                 </div>
 
-                <div className='md:mr-10 xl:-mr-20 mt-10 md:mt-0'>
+                {/* <div className="md:mr-10 xl:-mr-20 mt-10 md:mt-0">
                   <img src={bannerAnimation} alt="Animation" className='md:w-[550px] xl:w-[650px] h-auto scale-y-150' />
+                </div> */}
+                
+                <div className='md:w-1/2'>
+                  <video autoPlay controls loop muted className=" rounded-xl">
+                    <source
+                      src={heroVideo}
+                      type="video/mp4"
+                    />
+                  </video>
                 </div>
               </div>
 
