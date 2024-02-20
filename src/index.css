@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Navbar */
+.navContainer {
+  @apply max-w-[2520px] mx-auto 2xl:px-0
+}
+
 /* Banner */
 .heroBg {
   background-image: url(../src/assets/banner/Rectangle55.png);
