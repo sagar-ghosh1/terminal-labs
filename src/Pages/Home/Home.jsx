@@ -1,3 +1,4 @@
+import AboutUs from "@/components/SectionComponents/AboutUS/AboutUS";
 import Banner from "@/components/SectionComponents/Banner/Banner";
 import Container from "@/components/SectionComponents/Container/Container";
 import Customers from "@/components/SectionComponents/Customers/Customers";
@@ -8,6 +9,7 @@ const Home = () => {
   return (
     <>
       <Banner />
+      <AboutUs />
       <OurServices />
       <Customers />
       {/* <ShareWithUs /> */}
