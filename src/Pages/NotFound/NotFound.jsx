@@ -1,4 +1,3 @@
-import { MdArrowOutward } from 'react-icons/md';
 import notFound from "@/assets/notfoundpage.gif"
 import { Link } from 'react-router-dom';
 
