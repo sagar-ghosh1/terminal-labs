@@ -19,7 +19,8 @@ const Customers = () => {
       <Container>
         <div>
           <p className="text-white text-center font-switzer text-[22px] mb-[71px]">500,000+ Customers Trust Terminal Labs</p>
-
+          
+          {/* Company logo */}
           <div className='grid grid-cols-2 md:grid-cols-4 xl:grid-cols-5 gap-x-5 gap-y-6 md:gap-y-10'>
             <img src={logo1} alt="Logo Image" className='w-[120px] md:w-[125px] xl:w-[133px] md:h-[37px] xl:h-[42px]' />
             <img src={logo2} alt="Logo Image" className='w-[130px] md:w-[133px] xl:w-[143px] md:h-[45px] xl:h-[52px]' />
