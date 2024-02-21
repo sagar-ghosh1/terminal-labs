@@ -6,14 +6,14 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="bg-[#110A15] 2xl:pt-[170px]">
+    <div className="bg-[#110A15] 2xl:pt-[170px] xl:pt-[160px] md:pt-[80px] sm:pt-[40px]">
       <Container>
-        <div className="flex justify-between pb-[100px] mx-auto">
+        <div className="xl:flex xl:justify-between pb-[100px] mx-auto">
           {/* left email part */}
           <div className="2xl:max-w-[267px]">
             <div className="2xl:mb-[45px]">
               <img className="mb-[16px]" src={FooterPng} alt="logo images" />
-              <p className="text-[#B2A6B9] font-amulya text-[16px]">Terminal Labs is at the forefront of shaping visionary success.</p>
+              <p className="text-[#B2A6B9] font-amulya text-[16px] xl:max-w-[267px] md:max-w-[267px] sm:max-w-[267px]">Terminal Labs is at the forefront of shaping visionary success.</p>
               <p>Subscribe for upcoming news!</p>
             </div>
             <div>
