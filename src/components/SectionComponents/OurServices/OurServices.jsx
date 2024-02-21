@@ -8,10 +8,9 @@ import shape2 from "@/assets/services/Light_removebg.png"
 
 const OurServices = () => {
   return (
-    <div className="bg-gradient-to-b from-[#110a15] from-10% via-[#120b16] via-30% to-[#140a1a] to-90% overflow-hidden relative pt-2" id="services">
-      <div>
-        <img src={shape1} alt="image" className="absolute right-0 -top-[650px]" />
-      </div>
+    <div className=" bg-[#180c21] overflow-hidden relative pt-2" id="services">
+      <div className="w-[410px] h-[550px] bg-[#1F0B2F] absolute right-0 blur-3xl" />
+      {/* <img src={shape1} alt="image" className="absolute right-0 -top-[750px]" /> */}
 
       <Container>
         {/* Section Heading */}
@@ -28,7 +27,7 @@ const OurServices = () => {
 
         <div className="relative">
           {/* Shadow and shape */}
-          <div className="w-36 h-60 bg-[#261744] absolute bottom-3 -left-28 blur-3xl" />
+          <div className="w-36 h-60 bg-[#231746] absolute bottom-3 -left-28 blur-3xl" />
           <img src={shape2} alt="shape" className="w-[200px] blur-[2px] absolute bottom-3 md:bottom-5 -left-20 md:-left-20 xl:-left-28" />
 
           {/* Services Card */}
