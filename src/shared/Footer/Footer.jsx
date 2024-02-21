@@ -44,9 +44,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#1D1522]"><hr /></div>
-        <p className="text-[#B2A6B9] font-amulya text-[16px] text-center pt-[24px]">2024 Terminal Labs. All rights reserved.</p>
       </Container>
+      <div className="bg-[#1D1522]"><div className="border-[#2c173f] border-t"/></div>
+      <p className="text-[#B2A6B9] font-amulya text-[16px] text-center py-[24px]">2024 Terminal Labs. All rights reserved.</p>
     </div>
   );
 };
