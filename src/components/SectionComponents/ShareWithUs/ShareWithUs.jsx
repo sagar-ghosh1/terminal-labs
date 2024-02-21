@@ -7,10 +7,10 @@ const ShareWithUs = () => {
   return (
     <div className="bg-[#180c21]">
       <Container>
-        <div className='p-[1px] bg-gradient-to-b from-[#70636365] from-10% to-[#6d3dfe93] to-90% rounded-2xl'>
+        <div className='p-[1px] bg-gradient-to-r from-[#1e1425] from-10% to-[#29143a] to-90% rounded-2xl'>
           <div>
             {/* Section Content */}
-            <div className="md:flex justify-between items-center">
+            <div className="md:flex justify-between items-center p-12">
               <div>
                 <p className="text-white text-3xl md:text-4xl xl:text-4xl font-semibold font-switzer  md:w-[490px] xl:max-w-[475px]">Got a Project Idea! Share with us for develop!</p>
                 <p className="text-[#B2A6B9] font-amulya xl:max-w-[415px]">Got a project idea you're excited about? Share it with us today and let's make it happen together</p>
