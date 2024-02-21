@@ -45,14 +45,14 @@ const Banner = () => {
                   <img src={bannerAnimation} alt="Animation" className='md:w-[550px] xl:w-[650px] h-auto scale-y-150' />
                 </div> */}
                 
-                <div className='md:w-1/2'>
+                {/* <div className='md:w-1/2'>
                   <video autoPlay controls loop muted className=" rounded-xl">
                     <source
                       src={heroVideo}
                       type="video/mp4"
                     />
                   </video>
-                </div>
+                </div> */}
               </div>
 
               {/* Scroll Down */}
@@ -61,9 +61,9 @@ const Banner = () => {
               </div> */}
 
               {/* Scroll Down Animation */}
-              <a href="#services">
+              {/* <a href="#services">
                 <div className="scroll-down"></div>
-              </a>
+              </a> */}
             </Container>
           </div>
         </div>
