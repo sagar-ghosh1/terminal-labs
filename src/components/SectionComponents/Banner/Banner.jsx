@@ -70,8 +70,8 @@ const Banner = () => {
             <div className='flex justify-center cursor-pointer relative'>
               <img src={scrollDown} alt="Scroll Down" className="w-[40px] absolute bottom-10" />
               <div className="text-[20px] absolute -mt-[100px]">
-                <BsThreeDotsVertical className="text-[#9C37FF] mb-[1px]"/>
-                <FaArrowDown className="text-[#9C37FF]"/>
+                <BsThreeDotsVertical className="text-[#9b37ffd0] mb-[1px]"/>
+                <FaArrowDown className="text-[#9b37ffd0]"/>
               </div>
             </div>
 
