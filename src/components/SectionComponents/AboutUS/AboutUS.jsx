@@ -1,4 +1,3 @@
-import React from 'react';
 import Container from '../Container/Container';
 import aboutUsImg from "@/assets/about/circle-unscreen.gif"
 import aboutIcon1 from "@/assets/about/Group 71042.png"

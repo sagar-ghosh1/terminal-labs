@@ -7,10 +7,10 @@ import OurServices from "@/components/SectionComponents/OurServices/OurServices"
 const Home = () => {
   return (
     <>
-      {/* <Banner /> */}
+      <Banner />
       <AboutUs />
-      {/* <OurServices /> */}
-      {/* <Customers /> */}
+      <OurServices />
+      <Customers />
     </>
   );
 };
