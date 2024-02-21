@@ -4,6 +4,7 @@ import Container from "@/components/SectionComponents/Container/Container";
 import Customers from "@/components/SectionComponents/Customers/Customers";
 import Footer from "@/components/SectionComponents/Footer/Footer";
 import OurServices from "@/components/SectionComponents/OurServices/OurServices";
+// import NotFound from "../NotFound/NotFound";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <OurServices />
       <Customers />
       <Footer />
+      {/* <NotFound /> */}
     </>
   );
 };
