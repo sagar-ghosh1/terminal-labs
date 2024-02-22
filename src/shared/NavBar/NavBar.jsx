@@ -28,7 +28,7 @@ const NavBar = () => {
   }
 
   return (
-    <div className={color ? 'sticky top-0 z-50 duration-300 bg-[#250F3A] bg-opacity-75 text-[#d1d1d1] shadow-md pt-0 navContainer' : 'navContainer after:pt-2 duration-300'}>
+    <div className={color ? 'sticky top-0 z-50 duration-300 bg-[#000000] bg-opacity-75 text-[#d1d1d1] shadow-md pt-0 navContainer' : 'navContainer after:pt-2 duration-300 bg-[#000000]'}>
       <Container>
         <div className="w-full top-0 left-0 z-10">
           <div className="md:flex justify-between items-center py-4 ">
