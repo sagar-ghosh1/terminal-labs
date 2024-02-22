@@ -22,6 +22,7 @@ const Banner = () => {
   return (
     <div className="heroBg overflow-hidden relative">
       <div className="overflow-hidden w-full max-h-[95vh] flex justify-center items-center relative">
+        {/* video */}
         <div className="blur-sm w-full h-dvh -mt-1">
           <video
             className="w-full h-full object-cover"
