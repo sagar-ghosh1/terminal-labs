@@ -7,17 +7,19 @@ import circleShadow from '@/assets/develop/lightBg.png';
 
 const ShareWithUs = () => {
   return (
-    <div className="bg-[#180c21] relative pb-14 overflow-hidden">
+    <div className="bg-[#180c21] relative pt-10 md:pt-0 pb-14 overflow-hidden">
       <Container>
         <div>
           <div>
-            <div className="object-contain h-40 w-full">
+            {/* Circle shadow */}
+            <div className="object-contain h-40 w-full hidden md:block">
               <div style={{ backgroundImage: `url(${circleShadow})` }} className="bg-no-repeat w-full h-60 md:ml-[700px] lg:ml-[950px] xl:ml-[880px] 2xl:ml-[70rem] hidden md:block" />
             </div>
+
             <div className="p-[1px] bg-gradient-to-r from-[#6f359f94] from-10% to-[#261336] to-90% rounded-2xl">
               <div className='bg-gradient-to-r from-[#1e1425] from-10% to-[#251531] to-90% rounded-2xl'>
                 <div className="">
-                  <div style={{ backgroundImage: `url(${patternBg})` }} className="bg-no-repeat bg-bottom bg-contain rounded-2xl">
+                  <div style={{ backgroundImage: `url(${patternBg})` }} className="bg-no-repeat bg-bottom md:bg-contain rounded-2xl">
                     <div className="bg-[#261233] bg-opacity-75 rounded-2xl">
 
                       <div className="md:flex justify-between items-center py-6 px-8 md:py-9 md:px-12 xl:py-12 xl:px-16">

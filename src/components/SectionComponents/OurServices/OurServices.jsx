@@ -9,18 +9,14 @@ const OurServices = () => {
   return (
     <div className=" bg-gradient-to-b from-[#110A15] to-[#180c21] overflow-hidden relative pt-3 -mt-[2px]" id="services">
       {/* shadow */}
-      <div className="w-[410px] h-[550px] bg-[#1F0B2F] absolute right-0 blur-3xl" />
+      <div className="lg:w-[150px] xl:w-[410px] h-[550px] md:bg-[#1F0B2F] absolute right-0 blur-3xl" />
 
       <Container>
         {/* Section Heading */}
         <div className="text-center pb-10">
           <p className='text-[15px] md:text-[16px] text-[#3CBDF4] font-switzer uppercase mb-3'>Let see our Services</p>
-          <div className="text-white text-3xl md:text-4xl xl:text-4xl font-semibold font-switzer">
-            <p>
-              Strategic
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#A84EFF] to-[#7815F8] font-bold"> Web3 Services </span> by
-            </p>
-            <p className="mt-2 text-white">Terminal Labs</p>
+          <div className="text-white text-[30px] md:text-4xl xl:text-4xl font-semibold font-switzer">
+            <p className="w-full md:w-[70%] xl:w-[55%] 2xl:w-[70%] mx-auto leading-[48px]">Strategic <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#A84EFF] to-[#7815F8] font-bold"> Web3 Services </span> by Terminal Labs</p>
           </div>
         </div>
 
