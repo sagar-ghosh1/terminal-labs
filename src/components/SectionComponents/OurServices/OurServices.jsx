@@ -16,7 +16,7 @@ const OurServices = () => {
         <div className="text-center pb-10">
           <p className='text-[15px] md:text-[16px] text-[#3CBDF4] font-switzer uppercase mb-3'>Let see our Services</p>
           <div className="text-white text-[30px] md:text-4xl xl:text-4xl font-semibold font-switzer">
-            <p className="w-full md:w-[70%] xl:w-[55%] 2xl:w-[70%] mx-auto leading-[48px]">Strategic <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#A84EFF] to-[#7815F8] font-bold"> Web3 Services </span> by Terminal Labs</p>
+            <p className="w-full md:w-[70%] lg:w-[50%] xl:w-[55%] 2xl:w-[70%] mx-auto leading-[48px]">Strategic <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#A84EFF] to-[#7815F8] font-bold"> Web3 Services </span> by Terminal Labs</p>
           </div>
         </div>
 
@@ -26,7 +26,7 @@ const OurServices = () => {
           <img src={shape2} alt="shape" className="w-[200px] blur-[2px] absolute bottom-3 md:bottom-5 -left-20 md:-left-20 xl:-left-28" />
 
           {/* Services Card */}
-          <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6 pb-24">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 pb-24">
             {/* Card One */}
             <div className="bg-gradient-to-t from-[#251935] to-[#211627] p-6 rounded-[16px] relative">
               <div className="shadowOne w-96 h-60 absolute -left-6 top-5 opacity-75" />
