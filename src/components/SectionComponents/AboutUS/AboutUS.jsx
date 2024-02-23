@@ -7,12 +7,18 @@ import aboutIcon3 from "@/assets/about/Group 71043 (1).png"
 import aboutLight from "@/assets/about/Light.png"
 import aboutBall from "@/assets/about/Ball-2.png"
 
-
 const AboutUs = () => {
   return (
-    <div className="bg-[#110A15] relative pt-40 pb-36 overflow-hidden">
-      {/* Shadow */}
+    <div className="bg-[#110A15] relative pt-40 pb-36 overflow-hidden -mt-[2px]">
+      {/* Shadow Left */}
+      <div className='w-96 h-[620px] bg-gradient-to-b from-[#1a102d] to-[#20143cc0] absolute top-0 blur-3xl' />
+      {/* Right */}
+      <div className='w-32 h-[300px] bg-gradient-to-b from-[#1a102d] to-[#20143c6b] absolute top-0 right-0 blur-3xl' />
+      {/* bottom right */}
+      <div className='w-96 h-[80px] bg-gradient-to-b from-[#1D0C2C] to-[#1D0C2C] absolute bottom-0 right-0 blur-3xl' />
+      
       <img className='w-[120px] md:w-[185px] absolute mt-[-150px] ml-3 2xl:ml-10 blur-[2px]' src={aboutLight} alt="shadow" />
+
       <Container>
         <div className='md:flex justify-between 2xl:justify-center mt-60 md:mt-0'>
           <div className='md:w-1/2'>
