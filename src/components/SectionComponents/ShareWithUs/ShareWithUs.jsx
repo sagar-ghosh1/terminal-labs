@@ -8,22 +8,16 @@ import circleShadow from '@/assets/develop/lightBg.png';
 const ShareWithUs = () => {
   return (
     <div className="bg-[#180c21] relative pb-14 overflow-hidden">
-
       <Container>
         <div>
-          {/* <div className="">
-            <img src={circleShadow} alt="Shadow" className="w-[290px] absolute right-0 top-0 blur-[4px]" />
-          </div> */}
-
-          {/* QR Code card */}
           <div>
             <div className="object-contain h-40 w-full">
-              <div style={{ backgroundImage: `url(${circleShadow})` }} className="bg-no-repeat w-full h-60 md:ml-[700px] lg:ml-[950px] xl:ml-[880px] 2xl:ml-[70rem] hidden md:block"/>
+              <div style={{ backgroundImage: `url(${circleShadow})` }} className="bg-no-repeat w-full h-60 md:ml-[700px] lg:ml-[950px] xl:ml-[880px] 2xl:ml-[70rem] hidden md:block" />
             </div>
             <div className="p-[1px] bg-gradient-to-r from-[#6f359f94] from-10% to-[#261336] to-90% rounded-2xl">
               <div className='bg-gradient-to-r from-[#1e1425] from-10% to-[#251531] to-90% rounded-2xl'>
                 <div className="">
-                  <div style={{ backgroundImage: `url(${patternBg})` }} className="bg-no-repeat bg-bottom bg-contain">
+                  <div style={{ backgroundImage: `url(${patternBg})` }} className="bg-no-repeat bg-bottom bg-contain rounded-2xl">
                     <div className="bg-[#261233] bg-opacity-75 rounded-2xl">
 
                       <div className="md:flex justify-between items-center py-6 px-8 md:py-9 md:px-12 xl:py-12 xl:px-16">
@@ -41,7 +35,6 @@ const ShareWithUs = () => {
                             </span>
                           </Button>
                         </div>
-
 
                         <div className="mt-14 md:mt-0">
                           <img src={qrCode} alt="QR Code" className="md:w-[300px]" />
