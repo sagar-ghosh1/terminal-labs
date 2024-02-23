@@ -11,7 +11,7 @@ import Container from '../Container/Container'
 
 const Customers = () => {
   return (
-    <div className='bg-[#180c21] pt-12 pb-10 relative'>
+    <div className='bg-[#180c21] pt-12 pb-10 relative -my-[2px]'>
       {/* Shadow */}
       <div className="md:w-[320px] md:h-[135px] bg-[#2a1b52] absolute left-0 -top-5 blur-3xl" />
       <div className="md:w-[110px] md:h-[50px] bg-[#2a1b52] absolute left-0 top-36 blur-3xl" />

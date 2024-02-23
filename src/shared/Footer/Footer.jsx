@@ -19,7 +19,7 @@ const Footer = () => {
   console.log(watch("example"))
 
   return (
-    <div className="bg-[#180c21] 2xl:pt-[170px] xl:pt-[160px] md:pt-[80px] sm:pt-[40px]">
+    <div className="bg-[#180c21] 2xl:pt-[170px] xl:pt-[160px] md:pt-[80px] sm:pt-[40px] -mt-[2px]">
       <Container>
         <div className="xl:flex xl:justify-between pb-[100px] mx-auto">
 
