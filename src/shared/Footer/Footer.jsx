@@ -28,7 +28,6 @@ const Footer = () => {
             <div className="2xl:mb-[45px]">
               <img className="mb-[16px]" src={FooterPng} alt="logo images" />
               <p className="text-[#B2A6B9] font-amulya text-[16px] xl:max-w-[267px] md:max-w-[267px] sm:max-w-[267px]">Terminal Labs is at the forefront of shaping visionary success.</p>
-              <p>Subscribe for upcoming news!</p>
             </div>
 
             <div>
@@ -50,8 +49,8 @@ const Footer = () => {
                   </div>
                   {errors.exampleRequired && <span className="text-[#66318a]">This field is required</span>}
 
-                  <input type="submit" className="bg-[#8211F1] cursor-pointer absolute top-0 right-0 px-2 py-2"/>
-                  
+                  <input type="submit" className="bg-[#8211F1] cursor-pointer absolute top-0 right-0 px-2 py-2" />
+
                 </form>
               </div>
             </div>
