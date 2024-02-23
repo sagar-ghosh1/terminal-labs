@@ -70,15 +70,15 @@ const Footer = () => {
           {/* say hello */}
           <div className="2xl:max-w-[518px]">
             <p className="text-[#fff] font-amulya text-[18px] mb-[20px] font-medium">Say Hello</p>
-            <div className="flex">
-              <div>
-                <p className="text-[#B2A6B9] font-amulya text-[14px] cursor-pointer">contact@terminalabs.io</p>
-                <p className="text-[#3CBDF4] font-amulya text-[14px] font-medium cursor-pointer">Let’s chat</p>
-              </div>
+            <div className="flex gap-[14px]">
 
-              <div>
-                <p className="text-[#B2A6B9] font-amulya text-[14px] cursor-pointer">Twitter</p>
-                <p className="text-[#3CBDF4] font-amulya text-[14px] font-medium cursor-pointer">Let’s chat</p>
+              <div className="w-[253px] p-[1px] bg-gradient-to-r from-[#6f359f94] from-10% to-[#26133663] to-90% rounded-[8px]">
+                <p className="text-[#B2A6B9] font-amulya text-[14px] cursor-pointer mt-[12px] mb-[18px] ml-[12px]">contact@terminalabs.io</p>
+                <p className="text-[#3CBDF4] font-amulya text-[14px] font-medium cursor-pointer mb-[12px] ml-[12px]">Let’s chat</p>
+              </div>
+              <div className="w-[253px] p-[1px] bg-gradient-to-r from-[#6f359f94] from-10% to-[#26133663] to-90% rounded-[8px]">
+                <p className="text-[#B2A6B9] font-amulya text-[14px] cursor-pointer mt-[12px] mb-[18px] ml-[12px]">Twitter</p>
+                <p className="text-[#3CBDF4] font-amulya text-[14px] font-medium cursor-pointer mb-[12px] ml-[12px]">Let’s chat</p>
               </div>
             </div>
           </div>
