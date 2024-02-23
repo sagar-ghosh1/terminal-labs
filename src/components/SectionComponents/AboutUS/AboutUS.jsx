@@ -10,7 +10,7 @@ import aboutBall from "@/assets/about/Ball-2.png"
 
 const AboutUs = () => {
   return (
-    <div className="bg-[#110A15] relative pt-40 pb-36 overflow-hidden">
+    <div className="bg-[#110A15] relative pt-40 pb-36 overflow-hidden -mt-[2px]">
       {/* Shadow */}
       <img className='w-[120px] md:w-[185px] absolute mt-[-150px] ml-3 2xl:ml-10 blur-[2px]' src={aboutLight} alt="shadow" />
       <Container>
