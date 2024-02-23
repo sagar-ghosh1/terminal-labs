@@ -3,7 +3,6 @@ import Container from "../Container/Container";
 import { MdArrowOutward } from "react-icons/md";
 import qrCode from "@/assets/develop/qrcode.png";
 import patternBg from '@/assets/develop/Group.png';
-import circleShadow from '@/assets/develop/lightBg.png';
 
 const ShareWithUs = () => {
   return (
