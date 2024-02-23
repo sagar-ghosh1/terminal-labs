@@ -1,6 +1,5 @@
 import Container from '../Container/Container';
 import aboutUsImg from "@/assets/about/07.gif"
-// import aboutUsImg from "@/assets/about/circle-unscreen.gif"
 import aboutIcon1 from "@/assets/about/Group 71042.png"
 import aboutIcon2 from "@/assets/about/Group 71043.png"
 import aboutIcon3 from "@/assets/about/Group 71043 (1).png"
@@ -11,7 +10,7 @@ const AboutUs = () => {
   return (
     <div className="bg-[#110A15] relative pt-40 pb-36 overflow-hidden -mt-[2px]">
       {/* Shadow Left */}
-      <div className='w-96 h-[620px] bg-gradient-to-b from-[#1a102d] to-[#20143cc0] absolute top-0 blur-3xl' />
+      <div className='w-96 h-[620px] md:bg-gradient-to-b from-[#1a102d] to-[#20143cc0] absolute top-0 blur-3xl' />
       {/* Right */}
       <div className='w-32 h-[300px] bg-gradient-to-b from-[#1a102d] to-[#20143c6b] absolute top-0 right-0 blur-3xl' />
       {/* bottom right */}
@@ -29,7 +28,7 @@ const AboutUs = () => {
           <div className='md:w-1/2 pt-8 md:pt-0'>
             <p className='font-switzer uppercase text-[#3CBDF4] text-[15px] md:text-[16px] 2xl:text-[18px] font-medium'>About Us</p>
             <div className='max-w-[520px]'>
-              <h2 className='font-switzer text-[35px] md:text-[37px] 2xl:text-[45px] font-medium 2xl:font-semibold text-[#fff] w-full mb-[50px]'>Unveiling the Genesis of <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#A84EFF] to-[#7815F8] font-semibold'>Terminal Labs'</span> Name</h2>
+              <h2 className='font-switzer text-[33px] md:text-[37px] 2xl:text-[45px] font-medium 2xl:font-semibold text-[#fff] w-full mb-[50px]'>Unveiling the Genesis of <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#A84EFF] to-[#7815F8] font-semibold'>Terminal Labs'</span> Name</h2>
 
               {/* three down card */}
               <div>

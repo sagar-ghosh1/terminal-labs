@@ -19,7 +19,8 @@ const Footer = () => {
   console.log(watch("example"))
 
   return (
-    <div className="bg-[#180c21] 2xl:pt-[170px] xl:pt-[160px] md:pt-[80px] sm:pt-[40px] -mt-[2px]">
+    <div className="bg-[#180c21] 2xl:pt-[170px] xl:pt-[160px] md:pt-[80px] sm:pt-[40px] -mt-[2px] relative">
+      <div className="FooterOne absolute left-6 opacity-75" />
       <Container>
         <div className="xl:flex xl:justify-between pb-[100px] mx-auto">
 
@@ -69,6 +70,7 @@ const Footer = () => {
 
           {/* say hello */}
           <div className="2xl:max-w-[518px]">
+            <div className="FooterOne absolute bottom-5 opacity-75" />
             <p className="text-[#fff] font-amulya text-[18px] mb-[20px] font-medium">Say Hello</p>
             <div className="flex gap-[14px]">
 

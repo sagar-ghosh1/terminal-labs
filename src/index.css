@@ -99,6 +99,25 @@
   background-size: cover;
 }
 
+.FooterOne {
+  width: 367px;
+  height: 189px;
+  flex-shrink: 0;
+  border-radius: 367px;
+  background: #6945FF;
+  filter: blur(252px);
+}
+
+.FooterTwo {
+  width: 486.094px;
+  height: 252.249px;
+  transform: rotate(150deg);
+  flex-shrink: 0;
+  border-radius: 486.094px;
+  background: #9624FF;
+  filter: blur(377px);
+}
+
 
 @layer base {
   :root {
