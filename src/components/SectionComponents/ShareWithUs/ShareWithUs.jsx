@@ -18,7 +18,7 @@ const ShareWithUs = () => {
           {/* QR Code card */}
           <div>
             <div className="object-contain h-40 w-full">
-              <div style={{ backgroundImage: `url(${circleShadow})` }} className="bg-no-repeat w-full h-60 ml-[170px] xl:ml-[880px] 2xl:ml-[70rem]"/>
+              <div style={{ backgroundImage: `url(${circleShadow})` }} className="bg-no-repeat w-full h-60 md:ml-[700px] lg:ml-[950px] xl:ml-[880px] 2xl:ml-[70rem] hidden md:block"/>
             </div>
             <div className="p-[1px] bg-gradient-to-r from-[#6f359f94] from-10% to-[#261336] to-90% rounded-2xl">
               <div className='bg-gradient-to-r from-[#1e1425] from-10% to-[#251531] to-90% rounded-2xl'>
