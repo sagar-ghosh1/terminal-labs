@@ -87,7 +87,7 @@ const Footer = () => {
         </div>
       </Container>
 
-      <p className='text-[#B2A6B9] text-[16px] text-center font-amulya py-5 border-t border-[#1D1522]'>2024 Terminal Labs. All rights reserved.</p>
+      <p className='text-[#B2A6B9] text-[16px] text-center font-amulya py-5 border-t border-[#1D1522]'>{new Date().getFullYear()} Terminal Labs. All rights reserved.</p>
     </div>
   );
 };
