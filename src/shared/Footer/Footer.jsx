@@ -50,8 +50,9 @@ const Footer = () => {
                   </div>
                   {errors.exampleRequired && <span className="text-[#66318a]">This field is required</span>}
 
-                  <input type="submit" className="bg-[#8211F1] cursor-pointer absolute top-0 right-0 px-2 py-2" />
+                  <input type="submit" className="bg-[#8211F1] cursor-pointer absolute top-0 right-0 px-4 py-[18px] text-[0px] rounded-xl" />
 
+                  <FaArrowRight className="absolute text-[#ffffff] text-[14px] top-[10px] right-[9px] cursor-pointer"/>
                 </form>
               </div>
             </div>
