@@ -20,8 +20,8 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="heroBg overflow-hidden relative">
-      <div className="overflow-hidden w-full max-h-[95vh] flex justify-center items-center relative">
+    <div className="heroBg overflow-hidden relative -mt-1">
+      <div className="overflow-hidden w-full max-h-[90dvh] flex justify-center items-center relative">
         {/* video */}
         <div className="blur-sm w-full h-dvh -mt-1">
           <video
@@ -71,8 +71,8 @@ const Banner = () => {
             <div className='flex justify-center cursor-pointer relative'>
               <img src={scrollDown} alt="Scroll Down" className="w-[40px] absolute bottom-10" />
               <div className="text-[20px] absolute -mt-[100px]">
-                <BsThreeDotsVertical className="text-[#9b37ffd0] mb-[1px]"/>
-                <FaArrowDown className="text-[#9b37ffd0]"/>
+                <BsThreeDotsVertical className="text-[#9b37ffd0] mb-[1px]" />
+                <FaArrowDown className="text-[#9b37ffd0]" />
               </div>
             </div>
 
@@ -81,6 +81,9 @@ const Banner = () => {
                 <div className="scroll-down"></div>
               </a> */}
           </Container>
+
+          {/* Shadow */}
+          <div className="w-full h-20 bg-gradient-to-b from-[#04020560] via-[#110a15d8] to-[#0f0913] absolute bg-opacity-80 -bottom-3 blur-[5px]" />
         </div>
       </div>
     </div>
