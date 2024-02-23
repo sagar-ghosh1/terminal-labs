@@ -11,7 +11,7 @@
 
 /* Banner */
 .heroBg {
-  background-image: url(../src/assets/banner/Rectangle55.png);
+  background-color: #110A15;
   background-position: left center;
   background-repeat: no-repeat;
   background-size: cover;
