@@ -23,13 +23,16 @@ const AboutUs = () => {
 
           {/* right side */}
           <div className='md:w-1/2 pt-8 md:pt-0'>
-            <p className='font-switzer uppercase text-[#3CBDF4] text-[15px] md:text-[16px] 2xl:text-[18px] font-medium'>About Us</p>
+            <p className='font-switzer uppercase text-[#3CBDF4] text-[15px] md:text-[16px] 2xl:text-[18px] font-medium' data-aos="fade-up"
+              data-aos-duration="1500">About Us</p>
             <div className='max-w-[520px]'>
-              <h2 className='font-switzer text-[33px] md:text-[37px] 2xl:text-[45px] font-medium 2xl:font-semibold text-[#fff] w-full mb-[50px]'>Unveiling the Genesis of <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#A84EFF] to-[#7815F8] font-semibold'>Terminal Labs'</span> Name</h2>
+              <h2 className='font-switzer text-[33px] md:text-[37px] 2xl:text-[45px] font-medium 2xl:font-semibold text-[#fff] w-full mb-[50px]' data-aos="fade-up"
+                data-aos-duration="1900">Unveiling the Genesis of <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#A84EFF] to-[#7815F8] font-semibold'>Terminal Labs'</span> Name</h2>
 
               {/* three down card */}
               <div>
-                <div className='flex mb-[30px]'>
+                <div className='flex mb-[30px]' data-aos="fade-up"
+                  data-aos-duration="2100">
                   <div>
                     <img className='w-[150px] 2xl:w-[180px]' src={aboutIcon1} alt="" />
                   </div>
@@ -39,7 +42,8 @@ const AboutUs = () => {
                   </div>
                 </div>
 
-                <div className='flex mb-[30px] py-[30px] border-y border-dashed border-[#25182C] relative'>
+                <div className='flex mb-[30px] py-[30px] border-y border-dashed border-[#25182C] relative' data-aos="fade-up"
+                  data-aos-duration="2300">
                   {/* Custom dot */}
                   <div className='w-2 h-2 bg-[#25182C] rounded-full absolute -top-[4px] left-0' />
                   <div className='w-2 h-2 bg-[#25182C] rounded-full absolute -bottom-[4px] left-0' />
@@ -53,7 +57,8 @@ const AboutUs = () => {
                   </div>
                 </div>
 
-                <div className='flex mb-[60px]'>
+                <div className='flex mb-[60px]' data-aos="fade-up"
+                  data-aos-duration="2500">
                   <div>
                     <img className='w-[140px] 2xl:w-[170px]' src={aboutIcon3} alt="Image" />
                   </div>

@@ -13,9 +13,13 @@ const OurServices = () => {
       <Container>
         {/* Section Heading */}
         <div className="text-center pb-10">
-          <p className='text-[15px] md:text-[16px] text-[#3CBDF4] font-switzer uppercase mb-3'>Let see our Services</p>
+          <p className='text-[15px] md:text-[16px] text-[#3CBDF4] font-switzer uppercase mb-3' data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1600">Let see our Services</p>
           <div className="text-white text-[30px] md:text-4xl xl:text-4xl font-semibold font-switzer">
-            <p className="w-full md:w-[70%] lg:w-[50%] xl:w-[55%] 2xl:w-[70%] mx-auto leading-[48px]">Strategic <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#A84EFF] to-[#7815F8] font-bold"> Web3 Services </span> by Terminal Labs</p>
+            <p className="w-full md:w-[70%] lg:w-[50%] xl:w-[55%] 2xl:w-[70%] mx-auto leading-[48px]" data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1800">Strategic <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#A84EFF] to-[#7815F8] font-bold"> Web3 Services </span> by Terminal Labs</p>
           </div>
         </div>
 
@@ -26,7 +30,9 @@ const OurServices = () => {
           {/* Services Card */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 pb-24">
             {/* Card One */}
-            <div className="bg-gradient-to-t from-[#251935] to-[#211627] p-6 rounded-[16px] relative">
+            <div className="bg-gradient-to-t from-[#251935] to-[#211627] p-6 rounded-[16px] relative" data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
               <div className="shadowOne w-96 h-60 absolute -left-6 top-5 opacity-75" />
               <img src={icon1} alt="Icons" className="w-[86px]" />
 
@@ -41,7 +47,9 @@ const OurServices = () => {
             </div>
 
             {/* Card Two */}
-            <div className="bg-gradient-to-t from-[#1f1526] to-[#241630] p-6 rounded-[16px] relative">
+            <div className="bg-gradient-to-t from-[#1f1526] to-[#241630] p-6 rounded-[16px] relative" data-aos="flip-left"
+              data-aos-easing="ease-in-cubic"
+              data-aos-duration="2000">
               <div className="shadowOne w-96 h-60 absolute -left-6 top-5 opacity-75" />
               <div className="relative">
                 <img src={shape} alt="Icons" className="w-[86px]" />
@@ -59,7 +67,9 @@ const OurServices = () => {
             </div>
 
             {/* Card Three */}
-            <div className="bg-gradient-to-t from-[#23152c] to-[#2b153d] p-6 rounded-[16px] relative">
+            <div className="bg-gradient-to-t from-[#23152c] to-[#2b153d] p-6 rounded-[16px] relative" data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
               <div className="shadowOne w-96 h-60 absolute -left-6 top-5 opacity-75" />
               <div className="relative">
                 <img src={shape} alt="Icons" className="w-[86px]" />

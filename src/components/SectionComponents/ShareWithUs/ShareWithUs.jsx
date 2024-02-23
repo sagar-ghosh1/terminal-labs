@@ -10,9 +10,11 @@ const ShareWithUs = () => {
       <Container>
         <div className="xl:mt-[160px]">
 
-          <div className="p-[1px] bg-gradient-to-r from-[#6f359f94] from-10% to-[#261336] to-90% rounded-2xl">
+          <div className="p-[1px] bg-gradient-to-r from-[#6f359f94] from-10% to-[#261336] to-90% rounded-2xl" data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000">
             <div className='bg-gradient-to-r from-[#1e1425] from-10% to-[#251531] to-90% rounded-2xl'>
-              <div className="">
+              <div className="" data-aos="zoom-in" data-aos-duration="1800">
                 <div style={{ backgroundImage: `url(${patternBg})` }} className="bg-no-repeat bg-bottom md:bg-contain rounded-2xl">
                   <div className="bg-[#261233] bg-opacity-75 rounded-2xl">
 
