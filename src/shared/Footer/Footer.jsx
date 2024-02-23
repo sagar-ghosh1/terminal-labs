@@ -1,7 +1,5 @@
 import FooterPng from "@/assets/banner/Frame.png"
 import Container from "@/components/SectionComponents/Container/Container";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
 import { useForm } from "react-hook-form"
@@ -31,31 +29,6 @@ const Footer = () => {
               <p className="text-[#B2A6B9] font-amulya text-[16px] xl:max-w-[267px] md:max-w-[267px] sm:max-w-[267px]">Terminal Labs is at the forefront of shaping visionary success.</p>
             </div>
 
-            <div>
-              <p className="text-[#fff] font-amulya text-[16px] font-medium mb-3">Subscribe for upcoming news!</p>
-
-              <div>
-                {/* <form>
-                  <div className='p-[1px] bg-gradient-to-r from-[#6f359f94] from-10% to-[#26133663] to-90% rounded-[8px]'>
-                    <Input type="email" placeholder="mail@gmail.com" className="border-none px-2 rounded-[8px] text-[14px] font-semibold placeholder:text-[14px] placeholder:font-medium text-[#B2A6B9] placeholder:text-[#B2A6B9] w-full cursor-pointer bg-gradient-to-r from-[#281934] from-10% to-[#180C21] to-90%" />
-                  </div>
-                </form> */}
-
-                <form onSubmit={handleSubmit(onSubmit)} className="relative">
-                  <div className='p-[1px] bg-gradient-to-r from-[#6f359f94] from-10% to-[#26133663] to-90% rounded-[8px]'>
-                    <input {...register("exampleRequired", { required: true })}
-                      placeholder="mail@gmail.com"
-                      className="border-none px-2 py-2 rounded-[8px] text-[14px] font-semibold placeholder:text-[14px] placeholder:font-medium text-[#B2A6B9] placeholder:text-[#B2A6B9] w-full cursor-pointer bg-gradient-to-r from-[#281934] from-10% to-[#180C21] to-90%"
-                    />
-                  </div>
-                  {errors.exampleRequired && <span className="text-[#66318a]">This field is required</span>}
-
-                  <input type="submit" className="bg-[#8211F1] cursor-pointer absolute top-0 right-0 px-4 py-[18px] text-[0px] rounded-xl" />
-
-                  <FaArrowRight className="absolute text-[#ffffff] text-[14px] top-[10px] right-[9px] cursor-pointer"/>
-                </form>
-              </div>
-            </div>
           </div>
 
           {/* company part */}

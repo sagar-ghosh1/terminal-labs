@@ -3,8 +3,6 @@ import aboutUsImg from "@/assets/about/07.gif"
 import aboutIcon1 from "@/assets/about/Group 71042.png"
 import aboutIcon2 from "@/assets/about/Group 71043.png"
 import aboutIcon3 from "@/assets/about/Group 71043 (1).png"
-import aboutLight from "@/assets/about/Light.png"
-import aboutBall from "@/assets/about/Ball-2.png"
 
 const AboutUs = () => {
   return (
@@ -16,7 +14,6 @@ const AboutUs = () => {
       {/* bottom right */}
       <div className='w-96 h-[80px] bg-gradient-to-b from-[#1D0C2C] to-[#1D0C2C] absolute bottom-0 right-0 blur-3xl' />
 
-      <img className='w-[120px] md:w-[185px] absolute mt-[-150px] ml-3 2xl:ml-10 blur-[2px]' src={aboutLight} alt="shadow" />
 
       <Container>
         <div className='md:flex justify-between 2xl:justify-center mt-60 md:mt-0'>
@@ -45,7 +42,7 @@ const AboutUs = () => {
                 <div className='flex mb-[30px] py-[30px] border-y border-dashed border-[#25182C] relative'>
                   {/* Custom dot */}
                   <div className='w-2 h-2 bg-[#25182C] rounded-full absolute -top-[4px] left-0' />
-                  <div className='w-2 h-2 bg-[#25182C] rounded-full absolute -bottom-[4px] left-0'/>
+                  <div className='w-2 h-2 bg-[#25182C] rounded-full absolute -bottom-[4px] left-0' />
 
                   <div>
                     <img className='w-[140px] 2xl:w-[170px]' src={aboutIcon2} alt="Image" />
@@ -70,9 +67,6 @@ const AboutUs = () => {
           </div>
         </div>
       </Container>
-      <div className='flex justify-end relative'>
-        <img className='w-[100px] md:w-[180px] absolute mt-[-70px] md:mt-[-150px] blur-[2px]' src={aboutBall} alt="Image" />
-      </div>
     </div>
   );
 };

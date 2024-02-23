@@ -3,7 +3,6 @@ import icon1 from "@/assets/services/Group71068.png"
 import icon2 from "@/assets/services/Group71069.png"
 import icon3 from "@/assets/services/grap.png"
 import shape from "@/assets/services/Rectang.png"
-import shape2 from "@/assets/services/Light_removebg.png"
 
 const OurServices = () => {
   return (
@@ -23,7 +22,6 @@ const OurServices = () => {
         <div className="relative">
           {/* Shadow and shape */}
           <div className="w-36 h-60 bg-[#231746] absolute bottom-3 -left-28 blur-3xl" />
-          <img src={shape2} alt="shape" className="w-[200px] blur-[2px] absolute bottom-3 md:bottom-5 -left-20 md:-left-20 xl:-left-28" />
 
           {/* Services Card */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 pb-24">
