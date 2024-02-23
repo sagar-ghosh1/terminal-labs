@@ -21,7 +21,7 @@ const Banner = () => {
     <div className="heroBg overflow-hidden relative -mt-1">
       <div className="overflow-hidden w-full max-h-[70vh] md:max-h-[90dvh] flex justify-center items-center relative">
         {/* video */}
-        <div className="blur-sm w-full h-dvh -mt-1">
+        <div className="w-full h-dvh -mt-1">
           <video
             className="w-full h-full object-cover"
             muted
@@ -33,7 +33,7 @@ const Banner = () => {
 
         <div className="absolute w-full h-full">
           <Container>
-            <div className='flex flex-col-reverse md:flex-row justify-between items-center gap-x-8 md:pt-[100px] md:py-[140px]'>
+            <div className='flex flex-col-reverse md:flex-row justify-between items-center gap-x-8 md:py-[185px]'>
               <div className='md:w-1/2 mt-20 mb-14 md:mb-0 md:mt-0'>
                 <p className='text-[15px] md:text-[16px] text-[#3CBDF4] font-switzer uppercase mb-2'>Web3 Visionary Success Journey</p>
                 <div>
@@ -53,7 +53,7 @@ const Banner = () => {
             </div>
 
             {/* Scroll Down */}
-            <div className="hidden md:block">
+            <div className="hidden md:block md:pt-[130px]">
               <div className='flex justify-center cursor-pointer relative'>
                 <img src={scrollDown} alt="Scroll Down" className="w-[40px] absolute bottom-10" />
                 <div className="text-[20px] absolute -mt-[100px]">
