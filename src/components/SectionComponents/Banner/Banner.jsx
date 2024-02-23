@@ -81,6 +81,9 @@ const Banner = () => {
                 <div className="scroll-down"></div>
               </a> */}
           </Container>
+
+          {/* Shadow */}
+          <div className="w-full h-20 bg-gradient-to-b from-[#04020560] via-[#110a15d8] to-[#0f0913] absolute bg-opacity-80 -bottom-3 blur-[5px]"/>
         </div>
       </div>
     </div>
