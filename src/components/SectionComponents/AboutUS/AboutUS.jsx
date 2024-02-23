@@ -15,7 +15,7 @@ const AboutUs = () => {
       <div className='w-32 h-[300px] bg-gradient-to-b from-[#1a102d] to-[#20143c6b] absolute top-0 right-0 blur-3xl' />
       {/* bottom right */}
       <div className='w-96 h-[80px] bg-gradient-to-b from-[#1D0C2C] to-[#1D0C2C] absolute bottom-0 right-0 blur-3xl' />
-      
+
       <img className='w-[120px] md:w-[185px] absolute mt-[-150px] ml-3 2xl:ml-10 blur-[2px]' src={aboutLight} alt="shadow" />
 
       <Container>
@@ -32,7 +32,7 @@ const AboutUs = () => {
 
               {/* three down card */}
               <div>
-                <div className='flex mb-[60px]'>
+                <div className='flex mb-[30px]'>
                   <div>
                     <img className='w-[150px] 2xl:w-[180px]' src={aboutIcon1} alt="" />
                   </div>
@@ -42,7 +42,11 @@ const AboutUs = () => {
                   </div>
                 </div>
 
-                <div className='flex mb-[60px]'>
+                <div className='flex mb-[30px] py-[30px] border-y border-dashed border-[#25182C] relative'>
+                  {/* Custom dot */}
+                  <div className='w-2 h-2 bg-[#25182C] rounded-full absolute -top-[4px] left-0' />
+                  <div className='w-2 h-2 bg-[#25182C] rounded-full absolute -bottom-[4px] left-0'/>
+
                   <div>
                     <img className='w-[140px] 2xl:w-[170px]' src={aboutIcon2} alt="Image" />
                   </div>
