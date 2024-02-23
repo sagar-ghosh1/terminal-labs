@@ -2,10 +2,8 @@ import { useEffect, useRef } from "react";
 import wavingHand from '@/assets/banner/noto_waving-hand.png'
 import { Button } from '@/components/ui/button';
 import { MdArrowOutward } from "react-icons/md";
-import bannerAnimation from "@/assets/banner/circle_wave_trans.gif"
 import Container from '../Container/Container';
 import scrollDown from '@/assets/banner/Rectangle.png'
-import heroVideo from '@/assets/banner/hero.mp4'
 import { FaArrowDown } from "react-icons/fa6";
 import { BsThreeDotsVertical } from "react-icons/bs";
 
@@ -21,7 +19,7 @@ const Banner = () => {
 
   return (
     <div className="heroBg overflow-hidden relative -mt-1">
-      <div className="overflow-hidden w-full max-h-[90dvh] flex justify-center items-center relative">
+      <div className="overflow-hidden w-full max-h-[70vh] md:max-h-[90dvh] flex justify-center items-center relative">
         {/* video */}
         <div className="blur-sm w-full h-dvh -mt-1">
           <video
@@ -35,7 +33,7 @@ const Banner = () => {
 
         <div className="absolute w-full h-full">
           <Container>
-            <div className='flex flex-col-reverse md:flex-row justify-between items-center gap-x-8 pt-[100px] md:py-[140px]'>
+            <div className='flex flex-col-reverse md:flex-row justify-between items-center gap-x-8 md:pt-[100px] md:py-[140px]'>
               <div className='md:w-1/2 mt-20 mb-14 md:mb-0 md:mt-0'>
                 <p className='text-[15px] md:text-[16px] text-[#3CBDF4] font-switzer uppercase mb-2'>Web3 Visionary Success Journey</p>
                 <div>
@@ -52,34 +50,18 @@ const Banner = () => {
                   <MdArrowOutward className='text-[17px] ml-2 group-hover:-mt-2 duration-300' />
                 </Button>
               </div>
-
-              {/* <div className="md:mr-10 xl:-mr-20 mt-10 md:mt-0">
-                  <img src={bannerAnimation} alt="Animation" className='md:w-[550px] xl:w-[650px] h-auto scale-y-150' />
-                </div> */}
-
-              {/* <div className='md:w-1/2'>
-                  <video autoPlay controls loop muted className=" rounded-xl">
-                    <source
-                      src={heroVideo}
-                      type="video/mp4"
-                    />
-                  </video>
-                </div> */}
             </div>
 
             {/* Scroll Down */}
-            <div className='flex justify-center cursor-pointer relative'>
-              <img src={scrollDown} alt="Scroll Down" className="w-[40px] absolute bottom-10" />
-              <div className="text-[20px] absolute -mt-[100px]">
-                <BsThreeDotsVertical className="text-[#9b37ffd0] mb-[1px]" />
-                <FaArrowDown className="text-[#9b37ffd0]" />
+            <div className="hidden md:block">
+              <div className='flex justify-center cursor-pointer relative'>
+                <img src={scrollDown} alt="Scroll Down" className="w-[40px] absolute bottom-10" />
+                <div className="text-[20px] absolute -mt-[100px]">
+                  <BsThreeDotsVertical className="text-[#9b37ffd0] mb-[1px]" />
+                  <FaArrowDown className="text-[#9b37ffd0]" />
+                </div>
               </div>
             </div>
-
-            {/* Scroll Down Animation */}
-            {/* <a href="#services">
-                <div className="scroll-down"></div>
-              </a> */}
           </Container>
 
           {/* Shadow */}
