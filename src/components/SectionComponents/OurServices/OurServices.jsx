@@ -7,7 +7,7 @@ import shape2 from "@/assets/services/Light_removebg.png"
 
 const OurServices = () => {
   return (
-    <div className=" bg-[#180c21] overflow-hidden relative pt-3" id="services">
+    <div className=" bg-gradient-to-b from-[#110A15] to-[#180c21] overflow-hidden relative pt-3" id="services">
       {/* shadow */}
       <div className="w-[410px] h-[550px] bg-[#1F0B2F] absolute right-0 blur-3xl" />
 
