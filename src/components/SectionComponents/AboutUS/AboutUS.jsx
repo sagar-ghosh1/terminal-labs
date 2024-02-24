@@ -16,7 +16,7 @@ const AboutUs = () => {
 
 
       <Container>
-        <div className='md:flex justify-between 2xl:justify-center mt-60 md:mt-0'>
+        <div className='md:flex justify-between 2xl:justify-center mt-60 md:mt-0' id='about'>
           <div className='md:w-1/2'>
             <img className='md:w-[700px] xl:w-[800px] 2xl:w-[900px] mix-blend-screen absolute mt-[-310px] md:mt-[-75px] 2xl:mt-[-85px] -ml-3 md:-ml-44 scale-125 md:scale-100' src={aboutUsImg} alt="Image" />
           </div>
