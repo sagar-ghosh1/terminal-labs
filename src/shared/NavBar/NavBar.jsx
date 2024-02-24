@@ -41,13 +41,7 @@ const NavBar = () => {
             </div>
 
             <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1px] left-0 w-full bg-[#2C164F] md:bg-transparent md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-linear opacity-0 md:opacity-100 ${open ? 'top-[60px] opacity-100' : 'top-[-490px]'}`}>
-              {/* {
-                LinkNames.map((link, index) => (
-                  <li key={index} className="text-[#d1d1d1] font-amulya font-normal md:ml-8 my-4 md:my-0">
-                    <a href={link.link}>{link.name}</a>
-                  </li>
-                ))
-              } */}
+             
 
               <li>
                 <Link to="about" smooth={true} offset={-130} duration={600} className="text-[#d1d1d1] font-amulya font-normal md:ml-8 my-4 md:my-0 cursor-pointer">About</Link>
