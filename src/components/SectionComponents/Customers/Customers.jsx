@@ -17,7 +17,7 @@ const Customers = () => {
       <div className="md:w-[110px] md:h-[50px] bg-[#2a1b52] absolute left-0 top-36 blur-3xl" />
       <div className="md:w-[230px] md:h-[80px] bg-[#291538] absolute left-0 top-52 blur-3xl" />
       <Container>
-        <div>
+        <div id='customer'>
           <p className="text-white text-center font-switzer text-[22px] mb-[71px]" data-aos="flip-up" data-aos-duration="2200">500,000+ community members trust Terminal Labs</p>
 
           {/* Company logo */}
