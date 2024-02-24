@@ -19,7 +19,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="heroBg overflow-hidden relative -mt-1">
+    <div className="heroBg overflow-hidden relative -mt-1" id="banner">
       <div className="overflow-hidden w-full max-h-[70vh] md:max-h-[90dvh] flex justify-center items-center relative">
         {/* video */}
         <div className="w-full h-dvh -mt-1">
