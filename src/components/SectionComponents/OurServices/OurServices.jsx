@@ -12,7 +12,7 @@ const OurServices = () => {
 
       <Container>
         {/* Section Heading */}
-        <div className="text-center pb-10">
+        <div className="text-center pb-10" id="services">
           <p className='text-[15px] md:text-[16px] text-[#3CBDF4] font-switzer uppercase mb-3' data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="1600">Let see our Services</p>
