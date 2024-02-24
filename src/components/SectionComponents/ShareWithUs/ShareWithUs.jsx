@@ -26,12 +26,14 @@ const ShareWithUs = () => {
                         </div>
                         <p className="text-[#B2A6B9] font-amulya md:w-[330px] xl:w-[415px] 2xl:w-[420px] mt-5 mb-7">Got a project idea you're excited about? Share it with us today and let's make it happen together</p>
 
-                        <Button className="rounded-[8px] group cursor-pointer px-5 md:px-7 border border-[#a74fff4f]">
-                          <span className="flex justify-center items-center">
-                            <p className='text-[15px] font-amulya'>Contact</p>
-                            <MdArrowOutward className='text-[17px] ml-2 group-hover:-mt-2 duration-300' />
-                          </span>
-                        </Button>
+                        <a target="_blank" href="mailto:contact@terminalabs.io">
+                          <Button className="rounded-[8px] group cursor-pointer px-5 md:px-7 border border-[#a74fff4f]">
+                            <span className="flex justify-center items-center">
+                              <p className='text-[15px] font-amulya'>Contact</p>
+                              <MdArrowOutward className='text-[17px] ml-2 group-hover:-mt-2 duration-300' />
+                            </span>
+                          </Button>
+                        </a>
                       </div>
 
                       <div className="mt-14 md:mt-0">
