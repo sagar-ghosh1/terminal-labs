@@ -53,8 +53,8 @@ const Footer = () => {
               <div className="w-[253px] p-[1px] bg-gradient-to-r from-[#6f359f94] from-10% to-[#26133663] to-90% rounded-[8px]" data-aos="fade-down" data-aos-duration="1200">
                 <p className="text-[#B2A6B9] font-amulya text-[14px] cursor-pointer mt-[12px] mb-[18px] ml-[12px]">contact@terminalabs.io</p>
                 <div className="flex justify-between pb-4">
-                  <a target="_blank" href="https://mail.google.com/mail/#inbox?compose=new" className="ml-[12px] text-[22px] text-[#3CBDF4] cursor-pointer"><MdEmail /></a>
-                  <a target="_blank" href="https://mail.google.com/mail/#inbox?compose=new" className="mr-[12px] mt-[-4px] text-[25px] text-[#3CBDF4] cursor-pointer"><MdArrowOutward /></a>
+                  <a target="_blank" href="mailto:contact@terminalabs.io" className="ml-[12px] text-[22px] text-[#3CBDF4] cursor-pointer"><MdEmail /></a>
+                  <a target="_blank" href="mailto:contact@terminalabs.io" className="mr-[12px] mt-[-4px] text-[25px] text-[#3CBDF4] cursor-pointer"><MdArrowOutward /></a>
                 </div>
               </div>
               <div className="w-[253px] p-[1px] bg-gradient-to-r from-[#6f359f94] from-10% to-[#26133663] to-90% rounded-[8px]" data-aos="fade-up" data-aos-duration="1200">
