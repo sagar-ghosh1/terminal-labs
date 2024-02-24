@@ -46,7 +46,7 @@ const Banner = () => {
                 </div>
 
                 <p className='text-[17px] text-[#B2A6B9] md:w-[70%] xl:w-[75%] my-7' data-aos="fade-up" data-aos-duration="1800">Terminal Labs is at the forefront of shaping visionary success in the Web3 landscape.</p>
-                <Link to="customer" smooth={true} offset={-190} duration={600} className="flex justify-center items-center rounded-[8px] group cursor-pointer px-5 md:px-7 py-3 md:py-3 w-[30%] border bg-[#750FD9] border-[#a74fff4f] text-[#fff]" data-aos="fade-down" data-aos-duration="2000">
+                <Link to="customer" smooth={true} offset={-190} duration={600} className="flex justify-center items-center rounded-[8px] group cursor-pointer px-5 md:px-7 py-3 md:py-3 w-[175px] border bg-[#750FD9] border-[#a74fff4f] text-[#fff]" data-aos="fade-down" data-aos-duration="2000">
                   <span className='text-[15px] font-amulya'>See Partners</span>
                   <MdArrowOutward className='text-[17px] ml-2 group-hover:-mt-2 duration-300' />
                 </Link>
