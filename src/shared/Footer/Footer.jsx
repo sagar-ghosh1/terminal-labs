@@ -34,13 +34,13 @@ const Footer = () => {
           </div>
 
           {/* company part */}
-          <div className="2xl:max-w-[267px]" data-aos="fade-up" data-aos-duration="1500">
+          <div className="2xl:max-w-[267px]">
             <p className="text-[#fff] font-amulya text-[18px] mb-[20px] font-medium">Company</p>
             <div className="flex flex-col">
-              <Link to="banner" smooth={true} offset={-130} duration={600} className="text-[#B2A6B9] mb-[12px] font-amulya text-[16px] hover:underline hover:cursor-pointer">Home</Link>
-              <Link to="about" smooth={true} offset={-130} duration={600} className="text-[#B2A6B9] mb-[12px] font-amulya text-[16px] hover:underline cursor-pointer">About</Link>
-              <Link to="services" smooth={true} offset={-130} duration={600} className="text-[#B2A6B9] mb-[12px] font-amulya text-[16px] hover:underline cursor-pointer">Services</Link>
-              <Link to="partners" smooth={true} offset={-130} duration={600} className="text-[#B2A6B9] font-amulya text-[16px] hover:underline cursor-pointer">Partners</Link>
+              <Link to="banner" smooth={true} offset={-130} duration={600} className="text-[#B2A6B9] mb-[12px] font-amulya text-[16px] hover:underline hover:cursor-pointer" data-aos="fade-up" data-aos-duration="800">Home</Link>
+              <Link to="about" smooth={true} offset={-130} duration={600} className="text-[#B2A6B9] mb-[12px] font-amulya text-[16px] hover:underline cursor-pointer" data-aos="fade-up" data-aos-duration="1000">About</Link>
+              <Link to="services" smooth={true} offset={-130} duration={600} className="text-[#B2A6B9] mb-[12px] font-amulya text-[16px] hover:underline cursor-pointer" data-aos="fade-up" data-aos-duration="1200">Services</Link>
+              <Link to="partners" smooth={true} offset={-130} duration={600} className="text-[#B2A6B9] font-amulya text-[16px] hover:underline cursor-pointer" data-aos="fade-up" data-aos-duration="1400">Partners</Link>
             </div>
           </div>
 
@@ -50,18 +50,31 @@ const Footer = () => {
             <p className="text-[#fff] font-amulya text-[18px] mb-[20px] font-medium">Say Hello</p>
             <div className="flex gap-[14px]">
 
-              <div className="w-[253px] p-[1px] bg-gradient-to-r from-[#6f359f94] from-10% to-[#26133663] to-90% rounded-[8px]" data-aos="fade-down" data-aos-duration="1200">
-                <p className="text-[#B2A6B9] font-amulya text-[14px] cursor-pointer mt-[12px] mb-[18px] ml-[12px]">contact@terminalabs.io</p>
-                <div className="flex justify-between pb-4">
-                  <a target="_blank" href="mailto:contact@terminalabs.io" className="ml-[12px] text-[22px] text-[#3CBDF4] cursor-pointer"><MdEmail /></a>
-                  <a target="_blank" href="mailto:contact@terminalabs.io" className="mr-[12px] mt-[-4px] text-[25px] text-[#3CBDF4] cursor-pointer"><MdArrowOutward /></a>
+              {/* Contact email */}
+              <div className="p-[1px] bg-gradient-to-r from-[#4E2676] from-10% to-[#170d25] to-90% rounded-2xl" data-aos="fade-down" data-aos-duration="1200">
+                <div className="w-[253px] p-[1px] bg-gradient-to-r from-[#301844] from-10% to-[#170d25] to-90% rounded-2xl">
+                  <p className="text-[#B2A6B9] font-amulya text-[14px] cursor-pointer mt-[12px] mb-[18px] ml-[12px]">contact@terminalabs.io</p>
+                  <div className="flex justify-between pb-4">
+                    <a target="_blank" href="mailto:contact@terminalabs.io" className="ml-[12px] text-[22px] text-[#3CBDF4] cursor-pointer hover:scale-110 duration-300"><MdEmail /></a>
+                    <a target="_blank" href="mailto:contact@terminalabs.io" className="mr-[12px] mt-[-4px] hover:mt-[-7px] text-[25px] text-[#3CBDF4] cursor-pointer duration-300">
+                      <MdArrowOutward className="hover:mb-[3px] duration-300" />
+                    </a>
+                  </div>
                 </div>
               </div>
-              <div className="w-[253px] p-[1px] bg-gradient-to-r from-[#6f359f94] from-10% to-[#26133663] to-90% rounded-[8px]" data-aos="fade-up" data-aos-duration="1200">
-                <p className="text-[#B2A6B9] font-amulya text-[14px] cursor-pointer mt-[12px] mb-[18px] ml-[12px]">Twitter</p>
-                <div className="flex justify-between">
-                  <a target="_blank" href="https://twitter.com/TerminaLabs/" className="ml-[12px] text-[18px] text-[#3CBDF4] cursor-pointer"><FaXTwitter /></a>
-                  <a target="_blank" href="https://twitter.com/TerminaLabs/" className="mr-[12px] mt-[-4px] text-[25px] text-[#3CBDF4] cursor-pointer"><MdArrowOutward /></a>
+
+              {/* Social media */}
+              <div className="p-[1px] bg-gradient-to-r from-[#4E2676] from-10% to-[#170d25] to-90% rounded-2xl" data-aos="fade-up" data-aos-duration="1200">
+                <div className="w-[253px] p-[1px] bg-gradient-to-r from-[#301844] from-10% to-[#170d25] to-90% rounded-2xl">
+                  <div className="mt-[12px] pb-[17px]">
+                    <p className="text-[#B2A6B9] font-amulya text-[14px] cursor-pointer mb-[18px] ml-[12px]">Twitter</p>
+                    <div className="flex justify-between ">
+                      <a target="_blank" href="https://twitter.com/TerminaLabs" className="ml-[12px] text-[18px] text-[#3CBDF4] cursor-pointer hover:scale-110 duration-300"><FaXTwitter /></a>
+                      <a target="_blank" href="https://twitter.com/TerminaLabs" className="mr-[12px] mt-[-4px] hover:mt-[-7px] text-[25px] text-[#3CBDF4] cursor-pointer duration-300">
+                        <MdArrowOutward className="hover:mb-[3px] duration-300"/>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
