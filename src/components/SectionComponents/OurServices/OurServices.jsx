@@ -25,7 +25,7 @@ const OurServices = () => {
 
         <div className="relative">
           {/* Shadow and shape */}
-          <div className="w-36 h-60 bg-[#231746] absolute bottom-3 -left-28 blur-3xl" />
+          <div className="w-[270px] h-60 bg-gradient-to-t from-[#45298881] to-[#180C21] absolute -bottom-8 -left-32 blur-3xl " />
 
           {/* Services Card */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 pb-24">

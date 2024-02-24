@@ -13,9 +13,7 @@ const Customers = () => {
   return (
     <div className='bg-[#180c21] pt-12 pb-10 overflow-hidden relative -my-[2px]' id='partners'>
       {/* Shadow */}
-      <div className="md:w-[320px] md:h-[135px] bg-[#2a1b52] absolute left-0 -top-5 blur-3xl" />
-      <div className="md:w-[110px] md:h-[50px] bg-[#2a1b52] absolute left-0 top-36 blur-3xl" />
-      <div className="md:w-[230px] md:h-[80px] bg-[#291538] absolute left-0 top-52 blur-3xl" />
+      <div className="md:w-[270px] md:h-[350px] bg-gradient-to-b from-[#45298881] to-[#180C21] absolute left-0 -top-5 blur-3xl" />
       <Container>
         <div id='customer'>
           <p className="text-white text-center font-switzer text-[22px] mb-[71px]" data-aos="flip-up" data-aos-duration="2200">500,000+ community members trust Terminal Labs</p>

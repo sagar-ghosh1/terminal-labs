@@ -22,7 +22,7 @@ const Footer = () => {
     <div className="bg-[#180c21] 2xl:pt-[170px] xl:pt-[160px] md:pt-[80px] sm:pt-[40px] -mt-[2px] relative">
       <div className="FooterOne absolute left-6 opacity-75" />
       <Container>
-        <div className="xl:flex xl:justify-between pb-[100px] mx-auto">
+        <div className="lg:flex xl:justify-between pb-[100px] mx-auto">
 
           {/* left email part */}
           <div className="2xl:max-w-[267px]" data-aos="fade-down" data-aos-duration="1500">
@@ -48,10 +48,10 @@ const Footer = () => {
           <div className="2xl:max-w-[518px]">
             <div className="FooterOne absolute bottom-5 opacity-75" />
             <p className="text-[#fff] font-amulya text-[18px] mb-[20px] font-medium">Say Hello</p>
-            <div className="flex gap-[14px]">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-[14px]">
 
               {/* Contact email */}
-              <div className="p-[1px] bg-gradient-to-r from-[#4E2676] from-10% to-[#170d25] to-90% rounded-2xl" data-aos="fade-down" data-aos-duration="1200">
+              <div className="w-[253px] p-[1px] bg-gradient-to-r from-[#4E2676] from-10% to-[#170d25] to-90% rounded-2xl" data-aos="fade-down" data-aos-duration="1200">
                 <div className="w-[253px] p-[1px] bg-gradient-to-r from-[#301844] from-10% to-[#170d25] to-90% rounded-2xl">
                   <p className="text-[#B2A6B9] font-amulya text-[14px] cursor-pointer mt-[12px] mb-[18px] ml-[12px]">contact@terminalabs.io</p>
                   <div className="flex justify-between pb-4">
@@ -64,14 +64,14 @@ const Footer = () => {
               </div>
 
               {/* Social media */}
-              <div className="p-[1px] bg-gradient-to-r from-[#4E2676] from-10% to-[#170d25] to-90% rounded-2xl" data-aos="fade-up" data-aos-duration="1200">
+              <div className="w-[253px] p-[1px] bg-gradient-to-r from-[#4E2676] from-10% to-[#170d25] to-90% rounded-2xl" data-aos="fade-up" data-aos-duration="1200">
                 <div className="w-[253px] p-[1px] bg-gradient-to-r from-[#301844] from-10% to-[#170d25] to-90% rounded-2xl">
                   <div className="mt-[12px] pb-[17px]">
                     <p className="text-[#B2A6B9] font-amulya text-[14px] cursor-pointer mb-[18px] ml-[12px]">Twitter</p>
                     <div className="flex justify-between ">
                       <a target="_blank" href="https://twitter.com/TerminaLabs" className="ml-[12px] text-[18px] text-[#3CBDF4] cursor-pointer hover:scale-110 duration-300"><FaXTwitter /></a>
                       <a target="_blank" href="https://twitter.com/TerminaLabs" className="mr-[12px] mt-[-4px] hover:mt-[-7px] text-[25px] text-[#3CBDF4] cursor-pointer duration-300">
-                        <MdArrowOutward className="hover:mb-[3px] duration-300"/>
+                        <MdArrowOutward className="hover:mb-[3px] duration-300" />
                       </a>
                     </div>
                   </div>
