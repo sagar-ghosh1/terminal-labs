@@ -1,6 +1,6 @@
 import FooterPng from "@/assets/banner/Frame.png"
 import Container from "@/components/SectionComponents/Container/Container";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdArrowOutward } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
@@ -37,10 +37,10 @@ const Footer = () => {
           <div className="2xl:max-w-[267px]" data-aos="fade-up" data-aos-duration="1500">
             <p className="text-[#fff] font-amulya text-[18px] mb-[20px] font-medium">Company</p>
             <div className="flex flex-col">
-              <Link className="text-[#B2A6B9] mb-[12px] font-amulya text-[16px] hover:underline hover:cursor-pointer">Home</Link>
-              <Link className="text-[#B2A6B9] mb-[12px] font-amulya text-[16px] hover:underline cursor-pointer">About</Link>
-              <Link className="text-[#B2A6B9] mb-[12px] font-amulya text-[16px] hover:underline cursor-pointer">Services</Link>
-              <Link className="text-[#B2A6B9] font-amulya text-[16px] hover:underline cursor-pointer">Partners</Link>
+              <Link to="banner" smooth={true} offset={-130} duration={600} className="text-[#B2A6B9] mb-[12px] font-amulya text-[16px] hover:underline hover:cursor-pointer">Home</Link>
+              <Link to="about" smooth={true} offset={-130} duration={600} className="text-[#B2A6B9] mb-[12px] font-amulya text-[16px] hover:underline cursor-pointer">About</Link>
+              <Link to="services" smooth={true} offset={-130} duration={600} className="text-[#B2A6B9] mb-[12px] font-amulya text-[16px] hover:underline cursor-pointer">Services</Link>
+              <Link to="partners" smooth={true} offset={-130} duration={600} className="text-[#B2A6B9] font-amulya text-[16px] hover:underline cursor-pointer">Partners</Link>
             </div>
           </div>
 
