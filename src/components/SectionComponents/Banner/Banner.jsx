@@ -54,19 +54,21 @@ const Banner = () => {
             </div>
 
             {/* Scroll Down */}
-            <div className="hidden md:block md:pt-[130px] lg:ml-[1500px]">
-              <div className='flex justify-center cursor-pointer relative'>
-                <img src={scrollDown} alt="Scroll Down" className="w-[40px] absolute bottom-10" />
-                <div className="text-[20px] absolute -mt-[100px]">
-                  <BsThreeDotsVertical className="text-[#9b37ffd0] mb-[1px]" />
-                  <FaArrowDown className="text-[#9b37ffd0]" />
+            <Link className="absolute bottom-0 right-14" to="about" smooth={true} offset={-130} duration={600}>
+              <div className="hidden md:block">
+                <div className='flex justify-center cursor-pointer relative'>
+                  <img src={scrollDown} alt="Scroll Down" className="w-[40px] absolute bottom-10" />
+                  <div className="text-[20px] absolute -mt-[100px]">
+                    <BsThreeDotsVertical className="text-[#9b37ffd0] mb-[1px]" />
+                    <FaArrowDown className="text-[#9b37ffd0]" />
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </Container>
 
           {/* Shadow */}
-          <div className="w-full h-20 bg-gradient-to-b from-[#04020560] via-[#110a15d8] to-[#0f0913] absolute bg-opacity-80 -bottom-3 blur-[5px]" />
+          {/* <div className="w-full h-20 bg-gradient-to-b from-[#04020560] via-[#110a15d8] to-[#0f0913] absolute bg-opacity-80 -bottom-3 blur-[5px]" /> */}
         </div>
       </div>
     </div>
