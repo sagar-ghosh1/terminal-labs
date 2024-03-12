@@ -22,6 +22,7 @@ const Customers = () => {
 
 
           {/* Company logo */}
+
           <div>
             <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-5 gap-y-6 md:gap-y-10 md:ml-12 lg:ml-20 xl:ml-0'>
               <img src={logo1} alt="Logo Image" className='w-[120px] md:w-[125px] xl:w-[133px] md:h-[37px] xl:h-[42px]' data-aos="flip-up" data-aos-duration="1500" />
