@@ -20,6 +20,7 @@ const Customers = () => {
         <div id='customer'>
           <p className="text-white text-center font-switzer text-[22px] mb-[71px]" data-aos="flip-up" data-aos-duration="2200">500,000+ community members trust Terminal Labs</p>
 
+
           {/* Company logo */}
           <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-5 gap-y-6 md:gap-y-10 md:ml-12 lg:ml-20 xl:ml-0'>
             <img src={logo1} alt="Logo Image" className='w-[120px] md:w-[125px] xl:w-[133px] md:h-[37px] xl:h-[42px]' data-aos="flip-up" data-aos-duration="1500" />
